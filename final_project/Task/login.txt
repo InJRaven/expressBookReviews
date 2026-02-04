@@ -1,0 +1,9 @@
+Command :
+curl -s -X POST http://localhost:5000/login \
+-H "Content-Type: application/json" \
+-d '{"username":"user1","password":"password"}' > login
+
+Output:
+{
+  "message": "Login successful"
+}

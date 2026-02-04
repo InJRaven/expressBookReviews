@@ -1,0 +1,20 @@
+Command: curl -s https://api.github.com/repos/InJRaven/expressBookReviews > githubrepo
+
+Output:
+{
+  "id": 1149879446,
+  "node_id": "R_kgDORInElg",
+  "name": "expressBookReviews",
+  "full_name": "InJRaven/expressBookReviews",
+  "private": false,
+  "owner": {
+    "login": "InJRaven",
+    "id": 192238089,
+    ...
+  },
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    ...
+  }
+}

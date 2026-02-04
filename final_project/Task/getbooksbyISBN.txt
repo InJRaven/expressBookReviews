@@ -1,0 +1,7 @@
+Command: -s curl http://localhost:5000/isbn/1 > getbooksbyISBN
+Output:
+{
+	"author": "Chinua Achebe",
+	"title": "Things Fall Apart",
+	"reviews": {}
+}
